@@ -102,15 +102,15 @@ aside {
     transition: all .3s ease;
 }
 
-.sidebar__body>ul>li a:hover{
+.sidebar__body>ul>li a:hover {
     background: #EA6A12;
 }
 
-.sidebar__body>ul>li a:hover>svg>path{
+.sidebar__body>ul>li a:hover>svg>path {
     transition: all .3s ease;
 }
 
-.sidebar__body>ul>li a:hover >svg>path{
+.sidebar__body>ul>li a:hover>svg>path {
     fill: #fff;
 }
 
@@ -430,30 +430,35 @@ form>input:focus {
     gap: 20px;
     transition: all 0.5s ease;
 }
-.money{
+
+.money {
     font-size: 12px !important;
 }
-.menu_text:hover{
+
+.menu_text:hover {
     background: #EA6A12;
-    .element{
-        p, h6{
+
+    .element {
+
+        p,
+        h6 {
             color: #fff;
         }
 
-        .star{
+        .star {
             fill: #fff;
             stroke: #fff;
         }
 
-        .star1{
+        .star1 {
             stroke: #fff;
             fill: #EA6A12;
         }
 
-        div{
-            .plus{
+        div {
+            .plus {
                 background: #fff;
-                stroke:#EA6A12
+                stroke: #EA6A12
             }
 
         }
@@ -480,7 +485,7 @@ form>input:focus {
     padding: 20px;
 }
 
-.element>div{
+.element>div {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -505,13 +510,14 @@ form>input:focus {
 .star1 {
     stroke: #EA6A12;
 }
+
 .plus {
     background-color: #EA6A12;
     border-radius: 50%;
     color: #fff;
 }
 
-.cart_section{
+.cart_section {
     width: 35%;
     background: #fff;
     border-radius: 20px;
@@ -522,7 +528,7 @@ form>input:focus {
 }
 
 
-.right_section_header{
+.right_section_header {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -535,10 +541,11 @@ form>input:focus {
     background-color: #07143B;
 } */
 
-.right_section_header>.products{
+.right_section_header>.products {
     padding: none !important;
 }
-.cart_wrapper{
+
+.cart_wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -548,7 +555,7 @@ form>input:focus {
     padding: 30px;
 }
 
-.cart_element{
+.cart_element {
     width: 100%;
     display: flex;
     align-items: center;
@@ -559,27 +566,29 @@ form>input:focus {
     padding-left: 20px;
 }
 
-.cart_element >:first-child{
+.cart_element>:first-child {
     width: 80px;
     scale: 1.6;
 }
 
-.cart_element>:last-child svg{
+.cart_element>:last-child svg {
     stroke: red;
 }
 
-.cart_element >:last-child{
+.cart_element>:last-child {
     margin-left: auto;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: end;
 }
 
-.cart_element>div{
+.cart_element>div {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.cart_element>div>h6{
+
+.cart_element>div>h6 {
     font-size: 27px;
     text-align: start;
     color: #555656;
@@ -587,7 +596,7 @@ form>input:focus {
 
 
 
-.checkout{
+.checkout {
     padding: 10px 24px;
     background: #EA6A12;
     color: #fff;
@@ -595,7 +604,8 @@ form>input:focus {
     border: none;
 
 }
-.main_bottom{
+
+.main_bottom {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -603,21 +613,23 @@ form>input:focus {
     padding: 40px 50px;
 }
 
-.margin_bottom-left{
+.margin_bottom-left {
     width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main_bottom_section{
+
+.main_bottom_section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    padding:10px;
+    padding: 10px;
     transition: all 0.5s ease;
 }
-.middle{
+
+.middle {
     width: 310px;
     height: 227px;
     display: flex;
@@ -626,74 +638,91 @@ form>input:focus {
     background-color: #fff;
     border-radius: 24px;
     transition: all 0.5s ease;
-    }
-.middle>img{
+}
+
+.middle>img {
     position: relative;
-    right: -30px;    
+    right: -30px;
     width: 100px;
     transform: scale(1.5);
 }
-.middle>div{
+
+.middle>div {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.middle>div>span{
+
+.middle>div>span {
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.middle>div>p{
+.middle>div>p {
     font-size: 13px;
     color: #07143B;
 }
-.middle>div>span>p{
+
+.middle>div>span>p {
     font-size: 20px;
     color: #EA6A12;
 }
-.middle>div>h4{
+
+.middle>div>h4 {
     font-size: 16px;
     color: #07143B;
 }
-.middle>div>h5, h6{
+
+.middle>div>h5,
+h6 {
     font-size: 13px;
     /* color: #959895; */
 }
-.middle>div>.middle_line{
+
+.middle>div>.middle_line {
     width: 32px;
     height: 1px;
     background-color: #EA6A12;
 }
-.middle:hover{
+
+.middle:hover {
     background-color: #EA6A12;
     color: #fff;
 
-    div>span>p{
+    div>span>p {
         color: #fff;
     }
-    p, h4{
+
+    p,
+    h4 {
         color: #fff;
     }
-    .middle>div>h4{
+
+    .middle>div>h4 {
         color: #fff;
     }
-    .middle_line{
+
+    .middle_line {
         background-color: #fff;
     }
-    .middle>div>h5, h6{
+
+    .middle>div>h5,
+    h6 {
         color: #fff;
     }
-    .middle>div>.middle_line{
+
+    .middle>div>.middle_line {
         background-color: #fff;
     }
-    .plus{
+
+    .plus {
         stroke: #EA6A12;
         background-color: #fff;
     }
 }
 
-.margin_bottom-right{
+.margin_bottom-right {
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -703,28 +732,33 @@ form>input:focus {
     border-radius: 24px;
     /* padding: 40px */
 }
-.margin_bottom-right>.product{
+
+.margin_bottom-right>.product {
     padding: 40px 10px 40px 10px !important;
 }
-.line10{
+
+.line10 {
     width: 90%;
     height: 2px;
     background-color: #555656;
     margin-bottom: 30px;
     border-radius: 20px;
 }
-.heart{
+
+.heart {
     fill: red;
     stroke: red;
 }
-.buttons{
+
+.buttons {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     gap: 20px;
     padding-left: 40px;
 }
-.buttons>button{
+
+.buttons>button {
     font-size: 16px;
     padding: 12px 24px;
     border-radius: 30px;
@@ -735,13 +769,14 @@ form>input:focus {
     color: #EA6A12;
 }
 
-.buttons>button:hover{
+.buttons>button:hover {
     background: #EA6A12;
     color: #fff;
 }
-footer{
+
+footer {
     width: 100%;
-    height: 100px;
+    height: 60px;
     background: #fff;
     display: flex;
     z-index: -1;
@@ -749,33 +784,57 @@ footer{
     justify-content: space-between;
     position: relative;
 
-    div{
+    div {
         display: flex;
     }
 
 }
-footer>img{
+
+footer>img {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 0;
 }
-.footer{
-    width: 95%;
+
+.footer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 20px 2px 20px;
 }
-.footer_right{
+
+.footer_right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.footer_right>h6{
-    font-size: 20px;
+
+.footer_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #07143B;
+}
+.footer_left>h6{
+    color: #07143B;
+    font-size: 13px;
+}
+.footer_right>h6 {
+    font-size: 13px;
+    font-family: url(assets/fonts/Poppins-Regular.ttf);
+    color: #07143B;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-
+.footer_right>h6>span {
+    font-size: 13px;
+    font-family: url(assets/fonts/Poppins-Regular.ttf);
+    color: #EA6A12;
+    margin-left: 8px;
+}
